@@ -30,6 +30,8 @@ Paragraph-Default: 1.6
 #45260a
 - Accents:
 - Greys
+#888
+#767676
 #6f6f6f
 #555
 #333
@@ -92,6 +94,9 @@ body {
 }
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 .grid--center-v {
   align-items: center;
@@ -233,6 +238,9 @@ body {
 }
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
+}
+.margin-bottom-sm {
+  margin-bottom: 2.4rem !important;
 }
 .margin-bottom-lg {
   margin-bottom: 9.6rem !important;
